@@ -1,0 +1,416 @@
+@charset 'utf-8';
+@media all and (min-width:1217px) {
+    /*섹션의 1의 내용들*/
+    #mb_display {
+        display: none;
+    }
+    #tab_img {
+        display: none;
+    }
+    #section1 {
+        width: 100%;
+        height: 1080px;
+        float: left;
+        background: url(../imgs/section1img.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    #header {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #hea_til {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    .wrap {
+        width: 1200px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    #logo {
+        width: 175px;
+        height: auto;
+        float: left;
+        margin-top: 30px;
+    }
+    #logo > img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #section_1 {
+        width: 50%;
+        height: auto;
+        float: left;
+        margin-left: 25%;
+        margin-top: 100px;
+    }
+    #section_1 > li {
+        float: left;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    #section_1 > li:nth-child(1) {
+        color: #eaeaea;
+    }
+    #section_1 > li:nth-child(2) {
+        float: right;
+        color: #000;
+    }
+    /*section2의 내용*/
+    #section2 {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    .title {
+        width: 100%;
+        height: 500px;
+        float: left;
+        padding: 200px 0;
+        box-sizing: border-box;
+        background: url(../imgs/title_patter.jpg) center center;
+        background-size: contain;
+    }
+    .title_sen {
+        width: 100%;
+        text-align: center;
+        font-size: 50px;
+    }
+    .title_sen > b {
+        font-size: 50px;
+
+    }
+    .title_sen > .front {
+        color: #ff0000;
+    }
+    .title_sen > .back {
+        color: #0000ff;
+    }
+    .title_sub {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 100;
+        margin-top: 30px;
+        color: #333;
+    }
+    /*section2의 사진배너영역*/
+    #section2_pic {
+        width: 100%;
+        height: 1080px;
+        float: left;
+        overflow: hidden;
+    }
+    #sec2_wrap {
+        width: 200%;
+        height: 1080px;
+        float: left;
+        position: relative;
+    }
+    #sec2_wrap > li {
+        width: 50%;
+        height: 1080px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    #sec2_wrap > li:nth-child(1) {
+        background: url(../imgs/section2_2.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    #sec2_wrap > li:nth-child(2) {
+        background: url(../imgs/section_2_img1.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .sec2_title {
+        font-size: 50px;
+        width: 100%;
+        text-align: center;
+        margin-top: 430px;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    .sec2_title_sub {
+        font-size: 20px;
+        font-weight: 100;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    .sec2_sub_sub {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        color: #eaeaea;
+    }
+    /*section3의 사진배너영역*/
+    #section3 {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #section3 .title_sub {
+        color: #333;
+    }
+    #section3 .title_sen {
+        font-weight: 100;
+    }
+    #section3_pic {
+        width: 100%;
+        height: 1080px;
+        float: left;
+    }
+    #sec3_title {
+        width: 100%;
+        text-align: center;
+        font-size: 50px;
+        margin-top: 10%;
+        color: #1d1e23;
+        margin-bottom: 30px;
+    }
+    #sec3_title_sub {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    #sec3_mask {
+        width: 522px;
+        height: 522px;
+        border-radius: 260px;
+        margin: 30px auto;
+        background: url(../imgs/poolback.png) no-repeat center center;
+        background-size: cover;
+        overflow: hidden;
+    }
+    #sec3_wrap {
+        width: 200%;
+        height: 522px;
+        float: left;
+        position: relative;
+    }
+    #sec3_wrap > li {
+        width: 50%;
+        height: 522px;
+        float: left;
+        cursor: pointer;
+    }
+    #sec3_wrap > li > img {
+        display: none;
+    }
+    #sec3_wrap > li:nth-child(1) {
+        background: url(../imgs/poolimg.png) no-repeat center center;
+        background-size: cover;
+    }
+    #sec3_wrap > li:nth-child(2) {
+        background: url(../imgs/poolimg2.png) no-repeat center center;
+        background-size: cover;
+    }
+    #sec3_sub {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+    /*section4의 내용영역*/
+    #section4 {
+        width: 100%;
+        height: 1080px;
+        float: left;
+        background: url(../imgs/section4img.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    #section4 .title_sub {
+        color: #fff;
+    }
+    #sec4_title {
+        margin-top: 110px;
+        color: #fff;
+    }
+    /*section5의 내용영역*/
+    #section5 {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #section5_img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #section5_img > li {
+        width: 50%;
+        height: 835px;
+        float: left;
+    }
+    /*sectioj5의 좌측 이미지*/
+    #sec5_left {
+        width: 100%;
+        height: 835px;
+        float: left;
+        overflow: hidden;
+        position: relative;
+        background-color: #666;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+    #sec5_le_imgs {
+        width: 100%;
+        height: 200px;
+        float: left;
+    }
+    .sec5_sub_title {
+        font-size: 30px;
+        width: 100%;
+        text-align: right;
+        margin-top: 30px;
+        margin-right: 30px;
+        float: left;
+        color: #eaeaea;
+        font-weight: 100;
+    }
+    .sec5_sen {
+        font-size: 18px;
+        width: 100%;
+        text-align: right;
+        margin-top: 30px;
+        margin-right: 30px;
+        float: left;
+        color: #eaeaea;
+        font-weight: 100;
+    }
+    #sec5_le_imgs > li {
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    #sec5_title {
+        font-size: 45px;
+        float: left;
+        width: 100%;
+        text-align: right;
+        margin-top: 35%;
+        color: #fff;
+        margin-right: 30px;
+    }
+    #buts {
+        width: 72px;
+        height: 16px;
+        float: right;
+        margin-top: 30px;
+    }
+    #buts > li {
+        width: 16px;
+        height: 16px;
+        border-radius: 8px;
+        float: left;
+        background-color: #fff;
+        margin-right: 8px;
+        cursor: pointer;
+    }
+    #buts > li.on {
+        background-color: #333;
+    }
+    /*section5의 우측 배너 이미지*/
+    #sec5_right {
+        width: 100%;
+        height: auto;
+        float: left;
+        overflow: hidden;
+        background-color: #e1e0e0;
+    }
+    #sec5_imgs {
+        width: 300%;
+        height: 835px;
+        float: left;
+        position: relative;
+    }
+    #sec5_imgs > li {
+        width: 33.3%;
+        height: 835px;
+        float: left;
+    }
+    #sec5_imgs > li:nth-child(1) {
+        background: url(../imgs/section5_img1.jpg) no-repeat center center;
+        background-size: contain;
+    }
+    #sec5_imgs > li:nth-child(2) {
+        background: url(../imgs/section5_img2.jpg) no-repeat center center;
+        background-size: contain;
+    }
+    #sec5_imgs > li:nth-child(3) {
+        background: url(../imgs/section5_img3.jpg) no-repeat center center;
+        background-size: contain;
+    }
+    /*section6의 영역*/
+    #section6 {
+        width: 100%;
+        height: 500px;
+        float: left;
+        background: url(../imgs/footer_img.jpg) no-repeat center center;
+        background-size: cover;
+        position: relative;
+    }
+    #sect6_cir {
+        width: 404px;
+        height: 404px;
+        margin: 0 auto;
+        margin-top: 2.5%;
+        background: url(../imgs/footer_img_cir.png) no-repeat center center;
+        background-size: cover;
+        animation-name: mv;
+        animation-direction: alternate;
+        animation-duration: 100s;
+        animation-iteration-count: infinite;
+        position: relative;
+        z-index: 9;
+        cursor: pointer;
+    }
+    #sec6_sen {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 25px;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        color: #fff;
+    }
+    @keyframes mv {
+        from {
+            transform: rotate(0deg)
+        }
+        to {
+            transform: rotate(360deg)
+        }
+    }
+    #footer {
+        width: 100%;
+        height: 200px;
+        float: left;
+        background-color: #dfdfdf;
+    }
+    #foot_sen {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 2%;
+    }
+    #foot_sen > li {
+        margin: 0 auto;
+        text-align: left;
+        line-height: 30px;
+        font-size: 12px;
+    }
+
+    @media all and (max-width:1235px) and (min-width:1217px) {
+        #sec5_title {
+            font-size: 43px;
+        }
+        .sec5_sub_title {
+            font-size: 27px;
+        }
+    }

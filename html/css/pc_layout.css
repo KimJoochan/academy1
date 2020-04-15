@@ -1,0 +1,175 @@
+@charset 'utf-8';
+@media all and (max-width:2000px) {
+    /*section_1화면*/
+    #section_1 {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #section_1 > img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    /*section_2화면*/
+    #section_2 {
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    #sec2_mask {
+        width: 100%;
+        height: 100%;
+        float: left;
+        overflow: hidden;
+    }
+    #section2_wrap {
+        width: 200%;
+        height: auto;
+        float: left;
+    }
+    #section2_wrap > li {
+        width: 50%;
+        height: auto;
+        float: left;
+        background-color: transparent;
+    }
+    #section2_wrap > li:nth-child(2) {
+        transform: translate(-100%, 0);
+    }
+    #section2_wrap > li > img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    /*title의 영역*/
+    .title {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    .title > img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    /*section_3화면*/
+    #section_3 {
+        width: 100%;
+        height: 100%;
+        float: left;
+        background-color: white;
+    }
+    #sec3_mask {
+        width: 100%;
+        height: 100%;
+        float: left;
+        overflow: hidden;
+    }
+    #section3_wrap {
+        width: 200%;
+        height: auto;
+        float: left;
+    }
+    #section3_wrap > li {
+        width: 50%;
+        height: auto;
+        float: left;
+        background-color: transparent;
+    }
+    #section3_wrap > li:nth-child(2) {
+        transform: translate(-100%, 0);
+    }
+    #section3_wrap > li > img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    /*section_4화면*/
+    #section_4 {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #section_4 > img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    /*section_5화면*/
+    #section_5 {
+        width: 100%;
+        height: auto;
+        float: left;
+        position: relative;
+        overflow: hidden;
+    }
+    #section_5_wrap {
+        width: 300%;
+        height: auto;
+        float: left;
+        position: relative;
+    }
+    #section_5_wrap > li {
+        width: 33.3%;
+        height: auto;
+        float: left;
+    }
+    #section_5_wrap > li > img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #buts {
+        width: 54px;
+        height: 18px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-top: 180px;
+        margin-left: -180px;
+        z-index: 99;
+    }
+    #buts > li {
+        width: 33.3%;
+        height: 100%;
+        float: left;
+        border-radius: 18px;
+        background-color: #333;
+        cursor: pointer;
+    }
+    #buts > li.on {
+        background-color: white;
+    }
+    /*section_1화면*/
+    #section_6 {
+        width: 100%;
+        height: auto;
+        float: left;
+        position: relative;
+    }
+    #section6_img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #section6_title {
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+    }
+    #footer {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #footer > img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+}

@@ -1,0 +1,392 @@
+@charset 'utf-8';
+@media all and (max-width:1216px) and (min-width:760px) {
+    body,
+    html {
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    #mb_display {
+        display: none;
+    }
+    #section1 {
+        width: 100%;
+        height: auto;
+        float: left;
+        position: relative;
+    }
+    #tab_img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #header {
+        width: 100%;
+        height: auto;
+        float: left;
+        position: absolute;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    .wrap {
+        width: 100%;
+        overflow: hidden;
+        float: left;
+    }
+    #logo {
+        width: 20%;
+        height: auto;
+        float: left;
+    }
+    #logo > img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #hea_til {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #section_1 {
+        float: left;
+        width: 50%;
+        margin: 0 25%;
+        margin-top: 20px;
+    }
+    #section_1 > li {
+        font-size: 25px;
+        float: left;
+    }
+    #section_1 > li:nth-child(1) {
+        color: #eaeaea;
+    }
+    #section_1 > li:nth-child(2) {
+        float: right;
+    }
+    #section2 {
+        width: 100%;
+        height: 120%;
+        float: left;
+    }
+    #section2 .title_sub {
+        color: #333;
+    }
+    .title {
+        width: 100%;
+        height: 20%;
+        float: left;
+        background: url(../imgs/title_patter.jpg) center center;
+        background-size: contain;
+    }
+    .title_sen {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 4%;
+        color: #fff;
+    }
+    .front {
+        color: #bb0000;
+        font-size: 40px;
+        font-weight: 100;
+    }
+    .back {
+        color: #0000bb;
+        font-size: 40px;
+        font-weight: 100;
+    }
+    .title_sub {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 100;
+        margin-top: 30px;
+        color: #eaeaea;
+    }
+    #section2_pic {
+        width: 100%;
+        height: 80%;
+        float: left;
+        overflow: hidden;
+    }
+    /*section2의 내용영역*/
+    #sec2_wrap {
+        width: 200%;
+        height: 100%;
+        float: left;
+    }
+    #sec2_wrap > li {
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    #sec2_wrap > li:nth-child(1) {
+        background: url(../imgs/section_2_img1.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    #sec2_wrap > li:nth-child(2) {
+        background: url(../imgs/section2_2.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .sec2_title {
+        width: 100%;
+        text-align: center;
+        font-size: 45px;
+        color: #eaeaea;
+        font-weight: 100;
+        margin-top: 32.5%;
+    }
+    .sec2_title_sub {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 100;
+        color: #eaeaea;
+        margin-top: 30px;
+    }
+    .sec2_sub_sub {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font: 14px;
+        color: #eaeaea;
+        margin-top: 30px;
+    }
+    #section3 {
+        width: 100%;
+        height: 120%;
+        float: left;
+
+    }
+    #section3 .title_sub {
+        color: #333;
+    }
+    #section3 .title_sen {
+        color: #333;
+        font-weight: 100;
+    }
+    #section3_pic {
+        width: 100%;
+        height: 80%;
+        float: left;
+        position: relative;
+    }
+    #sec3_title {
+        width: 100%;
+        float: left;
+        text-align: center;
+        font-size: 45px;
+        font-weight: 100;
+        margin-top: 15%;
+        margin-bottom: 30px;
+    }
+    #sec3_title_sub {
+        width: 100%;
+        float: left;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 100;
+        margin-bottom: 30px;
+    }
+    #sec3_mask {
+        width: 32.5%;
+        height: auto;
+        float: left;
+        border-radius: 50%;
+        margin-left: 33.75%;
+        overflow: hidden;
+        background: url(../imgs/poolback.png) no-repeat center center;
+        background-size: cover;
+    }
+    #sec3_wrap {
+        width: 200%;
+        height: 100%;
+        float: left;
+        position: relative;
+    }
+    #sec3_wrap > li {
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    #sec3_wrap > li > img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #sec3_sub {
+        width: 100%;
+        float: left;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 100;
+        margin-top: 30px;
+    }
+    #section4 {
+        width: 100%;
+        height: 100%;
+        float: left;
+        background: url(../imgs/section4img.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    #section4 .title_sen{
+        margin-top: 8%;
+    }
+    #section5 {
+        width: 100%;
+        height: 70%;
+        float: left;
+
+    }
+    #section5_img {
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    #section5_img > li {
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    #sec5_left {
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+    /*section5의 왼쪽 글씨*/
+    #sec5_title {
+        width: 100%;
+        font-size: 30px;
+        font-weight: 100;
+        text-align: right;
+        margin-top: 100px;
+    }
+    .sec5_sub_title {
+        width: 100%;
+        text-align: right;
+        font-size: 25px;
+        float: left;
+        font-weight: 100;
+        margin-top: 30px;
+    }
+    .sec5_sen {
+        font-size: 18px;
+        width: 100%;
+        text-align: right;
+        margin-top: 30px;
+        margin-right: 30px;
+        float: left;
+        font-weight: 100;
+    }
+    #buts {
+        width: 64px;
+        height: 16px;
+        float: right;
+        margin-top: 30px;
+    }
+    #buts > li {
+        width: 16px;
+        height: 16px;
+        float: left;
+        border-radius: 8px;
+        margin-right: 8px;
+        background-color: gray;
+        cursor: pointer;
+    }
+    #buts > li:nth-child(3) {
+        margin-right: 0;
+    }
+    #buts > li.on {
+        background-color: #000;
+    }
+
+    /*section5의 오른쪽 영역*/
+    #sec5_right {
+        width: 100%;
+        height: 100%;
+        float: left;
+        overflow: hidden;
+    }
+    #sec5_imgs {
+        width: 300%;
+        height: 100%;
+        float: left;
+        position: relative;
+    }
+    #sec5_imgs > li {
+        width: 33.3%;
+        height: 100%;
+        float: left;
+    }
+    #sec5_imgs > li:nth-child(1) {
+        background: url(../imgs/section5_img1.jpg) no-repeat center center;
+        background-size: contain;
+        background-color: #e1e1e1;
+    }
+    #sec5_imgs > li:nth-child(2) {
+        background: url(../imgs/section5_img2.jpg) no-repeat center center;
+        background-size: contain;
+        background-color: #e1e1e1;
+    }
+    #sec5_imgs > li:nth-child(3) {
+        background: url(../imgs/section5_img3.jpg) no-repeat center center;
+        background-size: contain;
+        background-color: #e1e1e1;
+    }
+    #section6 {
+        width: 100%;
+        height: 200px;
+        float: left;
+        background: url(../imgs/footer_img.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    #sec6_sen {
+        width: 50%;
+        height: auto;
+        float: left;
+        margin-left: 25%;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 6.5%;
+        color: #fff;
+    }
+    #sect6_cir {
+        width: 174px;
+        height: 174px;
+        margin: 0 auto;
+        margin-top: 2%;
+        background: url(../imgs/footer_img_cir.png) no-repeat center center;
+        background-size: contain;
+        cursor: pointer;
+        position: relative;
+        z-index: 9;
+    }
+    #footer {
+        width: 100%;
+        height: 200px;
+        float: left;
+        background-color: #ccc;
+    }
+    #foot_sen {
+        width: 50%;
+        height: auto;
+        float: left;
+        margin-left: 25%;
+    }
+    #foot_sen > li {
+        width: 100%;
+        text-align: left;
+        line-height: 18px;
+        font-size: 12px;
+        margin-top: 12px;
+    }
+}
+
+@media all and (max-width:850px) and (min-width:760px) {
+    #sec5_title {
+        font-size: 26px;
+    }
+    .sec5_sub_title {
+        font-size: 22px;
+    }
+}
